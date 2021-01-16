@@ -1,0 +1,52 @@
+.root {
+    -fx-accent: #f5d800;
+    -fx-focus-color: #f5d800;
+}
+
+.button {
+    -fx-text-fill: black;
+    -fx-font: 12px "Pokemon Classic";
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+.button:hover {
+    -fx-text-fill: #f5d800;
+    -fx-font: 12px "Pokemon Classic";
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.button:pressed {
+    -fx-text-fill: #f5d800;
+    -fx-font: 12px "Pokemon Classic";
+    -fx-background-color: transparent;
+    -fx-border-color: #f5d800;
+    -fx-border-width: 2;
+    -fx-scale-x: .95;
+    -fx-scale-y: .95;
+}
+
+.label {
+    -fx-text-fill: black;
+    /*-fx-font: 10px "Pokemon Classic";*/
+    -fx-font-size: 12 px;
+    -fx-wrap-text: true;
+}
+
+.combo-box {
+    -fx-font: 12px "Pokemon Classic";
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: #fff23c;
+    -fx-text-fill: black;
+}
+
+.text-field {
+    -fx-highlight-fill: #fff23c;
+    -fx-font: 12px "Pokemon Classic";
+}
